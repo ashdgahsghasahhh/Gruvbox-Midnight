@@ -62,6 +62,11 @@ body {
 
     --background-image: on;
     --background-image-url: url('https://github.com/AngelJumbo/gruvbox-wallpapers/blob/main/wallpapers/anime/Kurumi-Ebisuzawa.png?raw=true');
+#   --background-image-url: url('https://github.com/ashdgahsghasahhh/Gruvbox-Midnight/blob/main/Background/anime-girl.png?raw=true');
+#   --background-image-url: url('https://github.com/ashdgahsghasahhh/Gruvbox-Midnight/blob/main/Background/gruvbox_space.jpg?raw=true');
+#   --background-image-url: url('https://github.com/ashdgahsghasahhh/Gruvbox-Midnight/blob/main/Background/gruvb_solarsys.png?raw=true');
+#   --background-image-url: url('https://github.com/ashdgahsghasahhh/Gruvbox-Midnight/blob/main/Background/pepolipo.png?raw=true');
+#   --background-image-url: url('https://github.com/ashdgahsghasahhh/Gruvbox-Midnight/blob/main/Background/tanjiro-kamado-gruv.jpg?raw=true');
     --transparency-tweaks: on;
     --remove-bg-layer: off;
     --panel-blur: on;
