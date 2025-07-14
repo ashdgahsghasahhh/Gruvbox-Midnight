@@ -1,0 +1,232 @@
+/**
+ * @name Gruvbox Midnight
+ * @description A Gruvbox-style Transparent Theme for BetterDiscord, inspired by Midnight and RadialStatus themes.
+ * @author ashdgahsghasahhh
+ * @version 1.0.4
+ */
+
+@import url('https://discordstyles.github.io/RadialStatus/RadialStatus.css');
+@import url('https://refact0r.github.io/midnight-discord/build/midnight.css');
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css);
+
+:root {
+    --rs-small-spacing: 2px;
+    --rs-medium-spacing: 3px;
+    --rs-large-spacing: 4px;
+    --rs-small-width: 2px;
+    --rs-medium-width: 3px;
+    --rs-large-width: 4px;
+    --rs-avatar-shape: 50%;
+    --rs-online-color: #689d6a;
+    --rs-idle-color: #fe8019;
+    --rs-dnd-color: #9d0006;
+    --rs-offline-color: #636b75;
+    --rs-streaming-color: #643da7;
+    --rs-invisible-color: #747f8d;
+    --rs-self-speaking-color: #57d39b;
+    --rs-phone-color: var(--rs-online-color);
+    --rs-phone-visible: block;
+}
+
+body {
+    --font: 'figtree';
+    --code-font: '';
+    font-weight: 450;
+
+    --gap: 12px;
+    --divider-thickness: 4px;
+    --border-thickness: 3px;
+
+    --animations: on;
+    --list-item-transition: 0.5s ease;
+    --dms-icon-svg-transition: 1.5s ease;
+    --border-hover-transition: 0.2s ease;
+
+    --top-bar-height: var(--gap);
+    --top-bar-button-position: titlebar;
+    --top-bar-title-position: off;
+    --subtle-top-bar-title: off;
+
+    --custom-window-controls: on;
+    --window-control-size: 14px;
+
+    --custom-dms-icon: custom;
+    --dms-icon-svg-url: url('https://upload.wikimedia.org/wikipedia/commons/c/c4/Font_Awesome_5_solid_moon.svg');
+    --dms-icon-svg-size: 75%;
+    --dms-icon-color-before: var(--icon-secondary);
+    --dms-icon-color-after: var(--white);
+    --custom-dms-background: off;
+    --dms-background-image-url: url('');
+    --dms-background-image-size: cover;
+    --dms-background-color: linear-gradient(70deg, var(--blue-2), var(--purple-2), var(--red-2));
+
+    --background-image: on;
+    --background-image-url: url('https://github.com/AngelJumbo/gruvbox-wallpapers/blob/main/wallpapers/anime/Kurumi-Ebisuzawa.png?raw=true');
+    --transparency-tweaks: on;
+    --remove-bg-layer: off;
+    --panel-blur: on;
+    --blur-amount: 13px;
+    --bg-floating: hsla(0, 0%, 11%, 0.9);
+
+    --custom-chatbar: separated;
+    --chatbar-height: 60px;
+    --chatbar-padding: 8px;
+
+    --small-user-panel: off;
+}
+
+:root {
+    --colors: on;
+
+    --text-0: hsla(0, 0%, 11%, 1);
+    --text-1: hsl(220, 45%, 95%);
+    --text-2: hsl(220, 25%, 85%);
+    --text-3: hsl(220, 20%, 75%);
+    --text-4: hsl(220, 15%, 55%);
+    --text-5: hsl(220, 15%, 40%);
+
+    --bg-1: hsla(0, 0%, 11%, 0.6);
+    --bg-2: hsla(0, 0%, 11%, 0.6);
+    --bg-3: hsla(0, 0%, 11%, 0.6);
+    --bg-4: hsla(0, 0%, 17%, 0.6);
+    --hover: rgba(160, 130, 120, 0.1);
+    --active: rgba(160, 130, 120, 0.2);
+    --active-2: hsla(220, 19%, 40%, 0.3);
+    --message-hover: hsla(220, 0%, 0%, 0.1);
+
+    --accent-1: var(--blue-1);
+    --accent-2: var(--blue-2);
+    --accent-3: var(--blue-3);
+    --accent-4: var(--blue-4);
+    --accent-5: var(--blue-5);
+    --accent-new: var(--accent-2);
+
+    --online: var(--green-2);
+    --dnd: var(--red-2);
+    --idle: var(--green-2);
+    --streaming: var(--purple-2);
+    --offline: var(--text-4);
+
+    --border-light: var(--hover);
+    --border: var(--active);
+    --border-hover: var(--active);
+    --button-border: hsl(220, 0%, 100%, 0.1);
+
+    --red-1: oklch(75% 0.12 0);
+    --red-2: oklch(70% 0.12 0);
+    --red-3: oklch(65% 0.12 0);
+    --red-4: oklch(60% 0.12 0);
+    --red-5: oklch(55% 0.12 0);
+
+    --green-1: oklch(75% 0.11 170);
+    --green-2: oklch(70% 0.11 170);
+    --green-3: oklch(65% 0.11 170);
+    --green-4: oklch(60% 0.11 170);
+    --green-5: oklch(55% 0.11 160);
+
+    --blue-1: oklch(75% 0.1 215);
+    --blue-2: oklch(70% 0.1 215);
+    --blue-3: oklch(65% 0.1 215);
+    --blue-4: oklch(60% 0.1 215);
+    --blue-5: oklch(55% 0.1 215);
+
+    --green-alt-1: #8ec07c;
+    --green-alt-2: #689d6a;
+    --green-alt-3: #4a715b;
+    --green-alt-4: #2d4537;
+    --green-alt-5: #1d2e23;
+
+    --purple-1: oklch(75% 0.11 310);
+    --purple-2: oklch(70% 0.11 310);
+    --purple-3: oklch(65% 0.11 310);
+    --purple-4: oklch(60% 0.11 310);
+    --purple-5: oklch(55% 0.11 310);
+}
+
+:root {
+    --font: 'gg sans';
+    --corner-text: 'Gruvbox';
+
+    --online-indicator: #b8bb26;
+    --dnd-indicator: #cc241d;
+    --idle-indicator: #8ec07c;
+
+    --accent-1: #7caea3;
+    --accent-2: #8ec07c;
+    --accent-3: #689d6a;
+    --accent-4: #4a715b;
+    --accent-5: hsl(343.6, 46.7%, 61.6%);
+
+    --mention: linear-gradient(to right, color-mix(in hsl, #8ec07c, transparent 90%) 40%, transparent);
+    --mention-hover: linear-gradient(to right, color-mix(in hsl, #8ec07c, transparent 95%) 40%, transparent);
+
+    --text-0: var(--bg-4);
+    --text-1: var(--text-2);
+    --text-2: #ebdbb2;
+    --text-3: #fbf1c7;
+    --text-4: #ad9e85;
+    --text-5: #ad9e85;
+
+    --bg-1: hsla(0, 0%, 11%, 0.6);
+    --bg-2: hsla(0, 0%, 11%, 0.6);
+    --bg-3: hsla(0, 0%, 11%, 0.6);
+    --bg-4: hsla(0, 0%, 17%, 0.6);
+    --hover: rgba(160, 130, 120, 0.1);
+    --active: rgba(160, 130, 120, 0.2);
+    --message-hover: hsla(0, 0%, 0%, 0.1);
+
+    --spacing: 12px;
+
+    --list-item-transition: 0.2s ease;
+    --unread-bar-transition: 0.2s ease;
+    --moon-spin-transition: 0.4s ease;
+    --icon-spin-transition: 1s ease;
+
+    --roundness-xl: 10px;
+    --roundness-l: 10px;
+    --roundness-m: 10px;
+    --roundness-s: 8px;
+    --roundness-xs: 5px;
+    --roundness-xxs: 5px;
+
+    --discord-icon: none;
+    --moon-icon: block;
+    --moon-icon-url: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 27 27' width='24' height='24'%3E%3Cpath fill='currentColor' d='M0 0h7v1H6v1H5v1H4v1H3v1H2v1h5v1H0V6h1V5h1V4h1V3h1V2h1V1H0m13 2h5v1h-1v1h-1v1h-1v1h3v1h-5V7h1V6h1V5h1V4h-3m8 5h1v5h1v-1h1v1h-1v1h1v-1h1v1h-1v3h-1v1h-2v1h-1v1h1v-1h2v-1h1v2h-1v1h-2v1h-1v-1h-1v1h-6v-1h-1v-1h-1v-2h1v1h2v1h3v1h1v-1h-1v-1h-3v-1h-4v-4h1v-2h1v-1h1v-1h1v2h1v1h1v-1h1v1h-1v1h2v-2h1v-2h1v-1h1M8 14h2v1H9v4h1v2h1v1h1v1h1v1h4v1h-6v-1H5v-1H4v-5h1v-1h1v-2h2m17 3h1v3h-1v1h-1v1h-1v2h-2v-2h2v-1h1v-1h1m1 0h1v3h-1v1h-2v-1h1v-1h1'%3E%3C/path%3E%3C/svg%3E");
+    --moon-icon-size: cover;
+
+    --login-bg-filter: none;
+    --green-to-accent-3-filter: none;
+    --blurple-to-accent-3-filter: none;
+}
+
+.wrapper__8436d:hover > .childWrapper_a6ce15::before,
+.wrapper__8436d.selected_ae80f7 > .childWrapper_a6ce15::before {
+    background: var(--text-0);
+    transform: rotate(-0deg) scale(0.8);
+}
+
+.button__581d0 {
+    background-color: var(--accent-3) !important;
+}
+.button__581d0:hover {
+    background-color: var(--accent-4) !important;
+}
+.button__581d0:active {
+    background-color: var(--accent-5) !important;
+}
+
+.unread__48cf4 {
+    background-color: var(--accent-2) !important;
+}
+
+.container__0a6a9:hover {
+    background-color: color-mix(in srgb, var(--accent-2) 15%, transparent) !important;
+}
+
+.selected__9800b {
+    background-color: color-mix(in srgb, var(--accent-2) 30%, transparent) !important;
+}
+
+.iconBadge__699e0 {
+    background-color: var(--accent-2) !important;
+}
