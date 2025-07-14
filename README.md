@@ -2,7 +2,7 @@
 
 Gruvbox Midnight is a theme for your Discord client that combines the best elements of the popular [Midnight](https://github.com/refact0r/midnight-discord/tree/91c52e4d056f1b2502ebb3709abb59924f0543a4) and [Radial Status](https://github.com/DiscordStyles/RadialStatus/tree/e361ae760dd8b88f6c187efa11a83e9aea3afd83) themes.
 
-![Friends List Preview](screenshots/Friends_List.png)
+![Friends List Preview](Screenshots/Friends_List.png)
 <h2 align="center">Installing </h2>
 
 ### 🐧 For Linux Users
@@ -19,7 +19,7 @@ wget https://raw.githubusercontent.com/ashdgahsghasahhh/Gruvbox-Midnight/main/Gr
 [Gruvbox.Midnight.theme.css](https://raw.githubusercontent.com/ashdgahsghasahhh/Gruvbox-Midnight/main/Gruvbox.Midnight.theme.css)  
 3. Copy it to BetterDiscord themes folder:  
    `%appdata%\BetterDiscord\themes`  
-![Messages Preview](screenshots/Messages.png)
+![Messages Preview](Screenshots/Messages.png)
 ## 🔄 Updating
 ### Linux users
 ```bash
