@@ -16,7 +16,7 @@ wget https://raw.githubusercontent.com/ashdgahsghasahhh/Gruvbox-Midnight/main/Gr
 
 ### 🪟 For Windows Users
 1. Download the theme file:
-[Gruvbox.Midnight.theme.css](https://raw.githubusercontent.com/ashdgahsghasahhh/Gruvbox-Midnight/main/Gruvbox.Midnight.theme.css)  
+[Gruvbox.Midnight.theme.css](https://github.com/ashdgahsghasahhh/Gruvbox-Midnight/blob/main/Gruvbox.Midnight.theme.css)  
 3. Copy it to BetterDiscord themes folder:  
    `%appdata%\BetterDiscord\themes`  
 ![Messages Preview](Screenshots/Messages.png)<br><br>
