@@ -1,12 +1,3 @@
-```bash
-sudo parted /dev/sda --script mklabel gpt
-sudo parted /dev/sda --script mkpart "WINDOWS_GAMES" ntfs 1MiB 300GiB
-sudo parted /dev/sda --script mkpart "LINUX_DATA" ext4 300GiB 100%
-sudo mkfs.ntfs -Q /dev/sda1  # NTFS для Windows
-sudo mkfs.ext4 /dev/sda2     # ext4 для Linux
-
-```
-
 <h1 align="center">Gruvbox Midnight 🌙</h1>
 
 Gruvbox Midnight is a theme for your Discord client that combines the best elements of the popular [Midnight](https://github.com/refact0r/midnight-discord/tree/91c52e4d056f1b2502ebb3709abb59924f0543a4) and [Radial Status](https://github.com/DiscordStyles/RadialStatus/tree/e361ae760dd8b88f6c187efa11a83e9aea3afd83) themes.
