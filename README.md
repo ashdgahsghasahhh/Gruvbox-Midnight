@@ -1,8 +1,11 @@
+```bash
 sudo parted /dev/sda --script mklabel gpt
 sudo parted /dev/sda --script mkpart "WINDOWS_GAMES" ntfs 1MiB 300GiB
 sudo parted /dev/sda --script mkpart "LINUX_DATA" ext4 300GiB 100%
 sudo mkfs.ntfs -Q /dev/sda1  # NTFS для Windows
 sudo mkfs.ext4 /dev/sda2     # ext4 для Linux
+
+```
 
 <h1 align="center">Gruvbox Midnight 🌙</h1>
 
